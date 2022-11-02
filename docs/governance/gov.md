@@ -203,6 +203,8 @@ In short, low turnout requires a supermajority to reject a proposal, which means
 
 All three vote counting mechanisms—majority win, overwhelmingly approve, and overwhelmingly oppose—equate to a simple 100% turnout majority vote system.
 
+<!--
+
 ## Council
 
 To represent passive stakeholders, Vara introduces the idea of ​​"council". The Council is a network organization consisting of several members, each is represented as an account on the network. On Var, the council currently consists of `13 members`.
@@ -214,6 +216,10 @@ if, after a deliberation period, the proposal is resubmitted, they cannot veto i
 
 Council proposals adopted by a supermajority of `3/5 (60%)`, but not supported by unanimous votes, will proceed to the public session under a neutral voting scheme with a majority vote. In the event that all council members voted for the proposal, the vote is considered unanimous and becomes a veche with a negative adaptive quorum bias.
 
+-->
+
+<!--
+
 ### Cancelling
 
 The proposal may be revoked if the [technical committee](#technical-committee) unanimously agrees to do so, or if the root source runs the feature. The deposit of the canceled offer is forfeited.
@@ -222,12 +228,16 @@ In addition, a two-thirds majority of the council can cancel the veche. This can
 
 If the cancellation is controversial enough that the board fails to win a two-thirds majority, then the decision on the fate of the proposal will be left to the interested parties en masse.
 
+-->
+
 ### Blacklisting
 
 The proposal may be blacklisted by root origin. The blacklisted offer and associated meetings (if any) are immediately [cancelled](#cancelled). Also, the hash of a blacklisted offer cannot reappear in the offer queue. The blacklist is useful in removing erroneous
 offers that can be sent with the same hash.
 
 Seeing their proposal removed, an applicant who is not properly familiar with the democratic system of Vara may be tempted to resubmit the same proposal. However, this is a far from reliable method of preventing invalid offers from being submitted - a single character change in the offer text will also change the hash of the offer, invalidating the hash blacklist.
+
+<!--
 
 ### How to be a council member?
 
@@ -263,6 +273,10 @@ For the top-N (say 4 in this example) runners-up, they can remain and their vote
 next election. After round 2, even though candidates B & C get the same number of votes in this
 round, candidate C gets elected because after adding the older unused approvals, it is higher than B.
 
+-->
+
+<!--
+
 ### Prime Members
 
 Council that is the embodiment
@@ -273,6 +287,9 @@ The main member is selected based on the [Borda count](https://en.wikipedia.org/
 The appointment of the chief board member is to ensure a quorum even if several members
 abstain from voting. Council members may be tempted to vote "soft reject" or "soft approve" by not voting and allowing others to vote. The existence of a prime member forces the councilors to express their votes clearly or take their votes into account when making decisions that the prime minister voted for.
 
+-->
+
+<!--
 ## Technical Committee
 
 The Technical Committee is a group of Vara Host teams that have successfully implemented the software and therefore represent the interests of these users. The TC plays an important role in the governance process and assists the [Council](#council) in making strategic decisions about the project. It is made up of the Council and includes all developers currently working on Vara.
@@ -281,3 +298,5 @@ Teams are added to or removed from the TC by a simple majority vote of the Counc
 The purpose of TC is to protect against malicious veche, fix bugs, reverse erroneous runtime updates, or add new but battle-tested features. TC has the ability to speed up proposals with the Democracy palette, and this is the only source that can trigger quick tracking feature. TC as a “unique source” that cannot generate offers, but can track them quickly.
 
 A fast-acting veche is the only type of veche that can operate simultaneously with another active veche. Thus, during a fasting veche, one can have two valid veche at the same time. Voting for one does not prevent the user from voting for another.
+
+-->
