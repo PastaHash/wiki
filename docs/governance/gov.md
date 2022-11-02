@@ -43,6 +43,8 @@ All veche have an _enactment delay_ associated with them. This is the period bet
 
 Veche is considered _baked_ if it is closed and tallied. Again, assuming the proposal was approved, it would be scheduled for enactment. Veche is considered _unbaked_ if it is pending an outcome, i.e. being voted on.
 
+![](./img/8.png)
+
 ### Proposing a Veche
 
 #### Public Veche
